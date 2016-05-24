@@ -1,0 +1,387 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,
+u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,
+section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#wrapper {
+    width: 1020px;
+    height: auto;
+    margin: 0 auto;
+    background: #fefcea;
+    background: linear-gradient(to bottom,  #2b2b2b 20%, #000000 75%);
+}
+#wrappercontacts {
+    height: 850px;
+    width: 1020px;
+    margin: 0 auto;
+    background: #fefcea;
+    background: linear-gradient(to bottom,  #2b2b2b 20%, #000000 75%);
+}
+
+#topfone {
+    z-index: 100;
+    width: 1020px;
+    height: 357px;
+    background-image: url(../img/logo.jpg);
+}
+#topline {
+    height: 422px;
+    background-image: url(../img/logo.jpg);
+    background-size: 100% ;
+}
+header {
+    z-index: 50;
+    width: 1020px;
+    height: 60px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    /*background: url(../images/logo1.jpg) no-repeat;
+    background-size: 100% 75px; */
+}
+
+header, h2, h3 {
+    text-transform: uppercase;
+}
+
+header ul li {
+    float: left;
+    list-style-type: none;
+    padding-left: 15px;
+    padding-right: 10px;
+    line-height: 60px;
+}
+header ul>li:first-child {
+    padding-left: 185px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+}
+
+#lastchld {
+    border-right: none;
+}
+header ul li a:hover {
+    color: red;
+}
+
+
+
+#leftbar {
+    width: 190px;
+    height: auto;
+    border-right: 1px solid white;
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: white;
+    padding-left: 65px;
+    padding-right: 30px;
+}
+
+.events {
+    color: white;
+    list-style-type: none;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+
+#leftbar .events:last-child {
+    border-bottom: none;
+}
+
+.events .datetime {
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.readmore {
+    text-align: right;
+    margin: 20px 0 10px 0;
+}
+
+.readmore a {
+    text-decoration: none;
+    user-select: none;
+    color: #ffffff;
+    background: red;
+    padding: .3em .5em;
+    outline: none;
+}
+.readmore a:hover {
+    background: rgb(232,95,76);
+}
+.readmore a:active {
+    background: rgb(152,15,0);
+}
+
+span {
+    color: red;
+}
+
+#container {
+    width: 1020px;
+    height: auto;
+}
+#containernews {
+    width: 1020px;
+    height: auto;
+}
+#containeralbums {
+    width: 1020px;
+    height: 450px;
+}
+#containergallery {
+    height: auto;
+}
+
+
+#content {
+    position: relative;
+    color: white;
+    width: 630px;
+    height: auto;
+    float: right;
+    text-align: center;
+    padding-right: 60px;
+}
+#content p {
+    text-align: left;
+}
+#contentnews {
+    height: auto;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 65px;
+}
+#contentnews h2 {
+    padding: 20px 0 20px 0;
+    text-transform: uppercase;
+}
+#contentnews p {
+    text-align: left;
+}
+#contentnews .contacts {
+    padding-top: 30px;
+    text-align: center;
+}
+#contentnews .blocks img{
+    width: 250px;
+    float: left;
+    margin: 25px;
+}
+#contentnews .blocks img:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    box-shadow: 0px 0px 1px gray;
+    -webkit-box-shadow: 0px 0px 1px gray;
+    -moz-box-shadow: 0px 0px 1px gray;
+}
+
+/* готово */
+
+#leftbar, #content {
+    margin-top: 50px;
+}
+
+#content h2 {
+    padding: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+.image img{
+    width: 630px;
+    height: 350px;
+    padding: 20px 0 20px 0;
+}
+.imagenews img{
+    width: 720px;
+    height: 350px;
+    padding: 20px 0 20px 100px;
+}
+
+
+#date {
+    float: right;
+    text-decoration: underline;
+    color: white;
+    margin-top: 35px;
+}
+.datenews {
+    padding-top: 30px;
+    float: right;
+    text-decoration: underline;
+}
+
+.news {
+    height: auto;
+    border-bottom: 1px solid white;
+    padding-bottom: 60px;
+}
+
+
+.news:last-child {
+    border-bottom: 0;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.contacts a:hover {
+    color: red;
+}
+
+
+
+footer {
+    background-color: black;
+    height: 128px;
+    border-top: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+    float: left;
+}
+footer p {
+    padding-top: 30px;
+}
+
+
+
+/* GALLERY START */
+.gallery-box{
+    width:600px;
+    padding: 0 0;
+    margin:0 auto;
+}
+.view{
+    position:relative;
+    margin:0 0 5px;
+}
+.big-image img{
+    display:block;
+    width:600px;
+    height:300px;
+}
+
+.prev{
+    background:url(../images/controls.png) no-repeat 0 0;
+}
+.next{
+    background:url(../images/controls.png) no-repeat -48px 0;
+}
+
+.thumbnails{
+    width:605px;
+}
+.thumbnails a{
+    float:left;
+    margin:0 5px 0 0;
+}
+.thumbnails a img{
+    width:142px;
+    height:80px;
+    border: 2px solid transparent;
+    display:block;
+}
+
+.thumbnails .active img{
+    border-color:#069;
+}
+
+.image-settings {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 250px;
+
+    border: solid white 5px;
+}
+
+.image-block {
+    height: auto;
+    float: left;
+    margin-left: 27px;
+    margin-bottom: 20px;
+}
+
+.image-block p {
+  float: left;
+}
+
+.gallery-block {
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.paginator {
+  padding-top: 40px;
+  width: 1020px;
+  height: 60px;
+  float: left;
+}
+.paginator ul {
+  float: left;
+  text-align: center;
+  padding-left: 380px;
+}
+.paginator li {
+  float: left;
+  list-style-type: none;
+  margin-left: 10px;
+}
+.paginator li a {
+  text-decoration: none;
+  color: white;
+}
+.paginator li a:hover {
+  color: red;
+}
+.paginator-info {
+  width: 769px;
+  height: 50px;
+  float: left;
+  padding-left: 200px;
+  padding-top: 10px;
+}
+.paginator-info p {
+  margin-top: 10px;
+}
+
+footer img {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}

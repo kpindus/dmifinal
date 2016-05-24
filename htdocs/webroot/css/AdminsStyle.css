@@ -1,0 +1,106 @@
+.add-edit-block {
+    padding-top: 20px;
+    margin-left: 5px;
+    visibility: hidden;
+}
+
+.is-main {
+    width: 70px;
+}
+
+.inline {
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+
+.inline div {
+    margin-right: 10px;
+}
+
+.header-name {
+    width: 650px;
+}
+
+.content_body {
+    width: 900px;
+    max-width: 1024px;
+    max-height: 500px;
+    height: 500px;
+}
+
+.gallery-block {
+    margin-left: 40px;
+}
+
+.image-block {
+    width: 270px;
+    height: 290px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.image-settings {
+    width: 270px;
+    height: 250px;
+    padding: 5px 5px 5px 5px;
+    border: solid black 1px;
+}
+.delete-image-btn {
+    width: 270px;
+    padding:  2px 2px;
+    margin-top: 5px;
+    height: 32px;
+}
+
+#uploadFile{
+    display: none;
+}
+
+.upload-block {
+    display: inline-flex;
+}
+
+.select-files-btn{
+    margin-left: 10px;
+}
+
+.paginator {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.paginator li {
+    list-style: none;
+    float: left;
+    width: 30px;
+    height: 15px;
+    margin: 5px 15px 10px 15px;
+    text-align: center;
+}
+
+.paginator .row {
+    padding-top: 40px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-heading {
+    padding: 5px 15px;
+}
+
+.panel-footer {
+    padding: 1px 15px;
+    color: #A0A0A0;
+}
+
+.profile-img {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
